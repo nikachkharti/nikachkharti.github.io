@@ -39,7 +39,6 @@ nav .row
 }
 
 
-
 .logo
 {
     font-family: sacramento;
@@ -241,6 +240,7 @@ header .row
     margin-bottom: 30px;
     height: 194px;
     margin-top: 50px;
+    object-fit: cover;
 }
 
 
@@ -254,13 +254,7 @@ header .row
 
 
 
-
-
-
-
-
-
-/* cards */
+/* cards and Blog */
 @media(max-width:1080px)
 {
     .cards 
@@ -276,12 +270,18 @@ header .row
     .blogCards
     {
         display: block;
+
     }
 
     .blogCard
     {
         max-width: 100%;
         margin: auto;
+    }
+
+    .blogCard img
+    {
+        object-fit: contain;
     }
 }
 
