@@ -1,0 +1,68 @@
+
+body
+{
+    background: rgb(21, 121, 236) !important;
+}
+
+
+.container
+{
+    margin-top: 50px;
+}
+
+.login
+{
+    width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 32px;
+    border-radius: .8rem;
+}
+
+.title
+{
+    text-align: center;
+    opacity: .6;
+}
+
+
+.submitBtn,.gooleSignInBtn,.fbSignInButton
+{
+    width: 100%;
+    border: none !important;
+}
+
+
+.emailInput,.passwordInput,.submitBtn,.gooleSignInBtn,.fbSignInButton
+{
+    border-radius: 2rem !important;
+}
+
+.line
+{
+    opacity: .2;
+    max-width: 100%;
+}
+
+.gooleSignInBtn,.fbSignInButton
+{
+    position: relative;
+}
+
+.googleLogo,.fblogo
+{
+    position: absolute;
+    left: 15%;
+    bottom: 31%;
+}
+
+.fbSignInButton
+{
+    background: rgb(16, 63, 192) !important;
+}
+
+.fbSignInButton:hover
+{
+    background: rgb(31, 53, 114) !important;
+}
+
