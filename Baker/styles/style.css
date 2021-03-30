@@ -1,0 +1,107 @@
+
+/******************************************************კონტენტი****************************************************/
+header
+{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content
+{
+   margin-top: 150px;
+}
+
+.content h5,.content h1,.content p
+{
+    margin-bottom: 2%;
+}
+
+.nav-item a:hover
+{
+    color: #fff !important;
+}
+
+.downArrow
+{
+    padding-top: 100px;
+}
+
+.downArrow a i
+{
+    color: #fff;
+    text-decoration: none;
+    transition: .2s;
+    position: relative;
+    justify-content: center;
+}
+
+.downArrow a i:hover
+{
+    color: #ffc107;
+    transition: .2s;
+}
+
+
+/******************************************************აღწერის სექცია****************************************************/
+
+.describeSection
+{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.desc.card i
+{
+    font-size: 30px;
+    color: #fff;
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/******************************************************სექციაჩვენი საქმიანობის შესახებ ****************************************************/
+
+.about
+{
+    background:#f3f4f8;
+    padding: 70px;
+}
+
+.about h1,.recentWorks h1
+{
+    margin-bottom: 40px;
+}
+
+
+/******************************************************სექცია ჩვენი უახლესი პროექტების შესახებ****************************************************/
+
+.recentWorks
+{
+    padding: 70px;
+}
+
+/******************************************************რევიუ კარუსელი****************************************************/
+
+.carousel-item
+{
+    background: url(../images/carouselbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/******************************************************ბლოგი****************************************************/
+.blog
+{
+    padding: 70px;
+}
+
+/******************************************************Footer****************************************************/
+footer
+{
+    background: #495468;
+    padding: 100px;
+}
+
