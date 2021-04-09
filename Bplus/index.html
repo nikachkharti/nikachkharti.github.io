@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Bplus</title>
+</head>
+<body>
+
+
+<header>
+    <!-- ზედა მენიუ -->
+    <nav class="supnav navbar navbar-expand-lg navbar-light">
+        <div class="container px-5">
+          <span style="font-size: 13px; color:#98a5ab; letter-spacing:2px;">პრემიუმ ბიზნეს შაბლონი</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <img src="./images/phone icon.png" alt="">
+                  <span>8877-8564-222</span> 
+              </li>
+              <li class="nav-item lc">
+                <img src="./images/email icon.png" alt="">
+                <span>info@business.com2</span>
+             </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- მთავარი მენიუ -->
+    <nav class="mainnav navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container px-5">
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Bplus"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+
+              <li class="nav-item">
+                <a class="active nav-link active" aria-current="page" href="#">მთავარი</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">ჩვენს შესახებ</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">სიახლეები</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">პორტფოლიო</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">სერვისები</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">ბლოგი</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  გვერდები
+                </a>
+                <ul class="dropdown-menu border-0 text-center" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">გვერდი 1</a></li>
+                  <li><a class="dropdown-item" href="#">გვერდი 2</a></li>
+                  <li><a class="dropdown-item" href="#">გვერდი 3</a></li>
+                </ul>
+              </li>
+
+              <li class="contact nav-item">
+                <a class="nav-link" href="#">კონტაქტი</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- კარუსელი -->
+      <section class="firstCarousel">
+          <div id="carouselExampleCaptions" class="carousel  slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" style="background: url(./images/carousel-1.png);">
+                <div class="container h-100">
+                    <div class="row justify-content-center align-items-center text-center h-100">
+                        <div style="color: #fff;">
+                            <h1>განავითარე შენი ლოკალური ბიზნესი</h1>
+                            <p>ჩვენი კომპანია დაგეხმარება რომ შენმა ბიზნესმა მიაღწიოს წარმატებას</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" style="background: url(./images/carousel-2.png);">
+                <div class="container h-100">
+                    <div class="row justify-content-center align-items-center text-center h-100">
+                        <div style="color: #000;">
+                            <h1>განავითარე შენი ლოკალური ბიზნესი</h1>
+                            <p>ჩვენი კომპანია დაგეხმარება რომ შენმა ბიზნესმა მიაღწიოს წარმატებას</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" style="background: url(./images/carousel-3.png);">
+                <div class="container h-100">
+                    <div class="row justify-content-center align-items-center text-center h-100">
+                        <div style="color:#fff;">
+                            <h1>განავითარე შენი ლოკალური ბიზნესი</h1>
+                            <p>ჩვენი კომპანია დაგეხმარება რომ შენმა ბიზნესმა მიაღწიოს წარმატებას</p>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      </section>
+</header>
+
+
+<!-- სტარტაპ სექცია -->
+<section>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6">
+                <div class="startupCard card border-0">
+                    <div class="card-body">
+                      <h1 class="card-title fw-bold">აქციე შენი სტარტაპ</h1>
+                      <h4 class="card-subtitle mb-2 text-muted">ოცნება რეალობად</h4>
+                      <p class="card-text">აქციე შენიაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ ოცნება რეალობად სტარტაპ ოცნება რეალობად</p>
+                      <img class="card-img-bottom" src="./images/startup.png" alt="Bplus">
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+              <div class="startupCard card border-0">
+                <div class="row">
+                  <div class="col-md-2">
+                    <img src="./images/Boost your Business_icon.png" alt="Bplus" style="background: #f7941d; padding: 18px;" >
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="cardHeader card-title" style="margin-bottom: 10px!important;">შენი ბიზნესის განვითარება</h4>
+                    <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ სტარტაპ სტარტაპ სტარტაპ სტარტაპ სტარტაპ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="startupCard card border-0 my-5">
+                <div class="row">
+                  <div class="col-md-2">
+                    <img src="./images/Filtering Business data_icon.png" alt="Bplus" style="background: #e5eef0; padding: 23px;" >
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="cardHeader card-title" style="margin-bottom: 10px!important;">ბიზნეს მონაცემების გაფილტვრა</h4>
+                    <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ სტარტაპ სტარტაპ სტარტაპ სტარტაპ სტარტაპ</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="startupCard card border-0 my-5">
+                <div class="row">
+                  <div class="col-md-2">
+                    <img src="./images/Business Solutions_icon.png" alt="Bplus" style="background: #e5eef0; padding: 28px;" >
+                  </div>
+                  <div class="col-md-10">
+                    <h4 class="cardHeader card-title" style="margin-bottom: 10px!important;">ბიზნეს გადაწყვეტილებები</h4>
+                    <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ სტარტაპ სტარტაპ სტარტაპ სტარტაპ სტარტაპ</p>
+                  </div>
+                </div>
+              </div>
+                <a class="moreServices" href="#">მეტი სერვისების შესახებ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- მეორე კარუსელი -->
+<section class="secondCarousel">
+  <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="clientCarousel carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="textContent">
+                  <h5 class="fw-bold" style="color: #23282f;">კლიენტები ჩვენს შესახებ</h5>
+                  <h6 style="color: #23282f;">ფიქრობენ რომ</h6>
+                  <img style="position: absolute;" src="./images/quoteIcon.png" alt="Bplus">
+                  <p style="color: #55595f;" class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit officia dignissimos debitis impedit excepturi placeat enim facilis autem aliquid. Enim saepe laboriosam ad magnam.</p>
+                  <p style="color: #f5a24c;">ჯეინ დანიელი</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="photoContent">
+                  <div class="row"></div>
+                  <img src="./images/carousel2-1.png" class="d-block w-20 ms-auto rounded-pill" alt="Bplus">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="clientCarousel carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="textContent">
+                    <h5 class="fw-bold" style="color: #23282f;">კლიენტები ჩვენს შესახებ</h5>
+                    <h6 style="color: #23282f;">ფიქრობენ რომ</h6>
+                    <img style="position: absolute;" src="./images/quoteIcon.png" alt="Bplus">
+                    <p style="color: #55595f;" class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit officia dignissimos debitis impedit excepturi placeat enim facilis autem aliquid. Enim saepe laboriosam ad magnam.</p>
+                    <p style="color: #f5a24c;">ჯონ სტარკი</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="photoContent">
+                    <img src="./images/carousel2-2.png" class="d-block w-20 ms-auto rounded-pill" alt="Bplus">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="clientCarousel carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="textContent">
+                  <h5 class="fw-bold" style="color: #23282f;">კლიენტები ჩვენს შესახებ</h5>
+                  <h6 style="color: #23282f;">ფიქრობენ რომ</h6>
+                  <img style="position: absolute;" src="./images/quoteIcon.png" alt="Bplus">
+                  <p style="color: #55595f;" class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit officia dignissimos debitis impedit excepturi placeat enim facilis autem aliquid. Enim saepe laboriosam ad magnam.</p>
+                  <p style="color: #f5a24c;">მეგან შტაინერი</p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="photoContent">
+                  <img src="./images/carousel2-3.png" class="d-block w-20 ms-auto rounded-pill" alt="Bplus">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- განსაკუთრებულობები -->
+<section class="featureSection">
+    <div class="container">
+      <div class="featureTitle">
+        <h5 class="fw-bold" style="color: #23282f;">განსაკუთრებულები ვართ</h5>
+        <h6 style="color: #23282f;">იმიტომ რომ გვაქვს</h6>
+      </div>
+
+      <div class="row">
+        <div class="col-xxl-4 col-xl-4col-lg-4 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="featureCard card border-0 w-100 animate__animated animate__fadeInLeft">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="./images/Boost your Business_icon.png" alt="Bplus" style="background: #f7941d; padding: 18px;">
+              </div>
+              <div class="col-md-9">
+                <h4 class="cardHeader card-title">მონაცემთა სპექტრი</h4>
+                <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-4col-lg-4 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="featureCard card border-0 w-100 animate__animated animate__fadeInLeft">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="./images/Client management_icon.png" alt="Bplus" style="background: #e5eef0; padding: 18px;">
+              </div>
+              <div class="col-md-9">
+                <h4 class="cardHeader card-title">კლიენტების მენეჯმენტი</h4>
+                <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-4col-lg-4 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="featureCard card border-0 w-100 animate__animated animate__fadeInLeft">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="./images/Better Communication_icon.png" alt="Bplus" style="background: #e5eef0; padding: 18px;">
+              </div>
+              <div class="col-md-9">
+                <h4 class="cardHeader card-title">უკეთესი კომუნიკაცია</h4>
+                <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row mt-2">
+        <div class="col-xxl-4 col-xl-4col-lg-4 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="featureCard card border-0 w-100 animate__animated animate__fadeInRight">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="./images/Well analyzing team_icon.png" alt="Bplus" style="background: #e5eef0; padding: 18px;">
+              </div>
+              <div class="col-md-9">
+                <h4 class="cardHeader card-title">კარგი ანალიტიკოსების გუნდი</h4>
+                <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-4col-lg-4 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="featureCard card border-0 w-100 animate__animated animate__fadeInRight">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="./images/24 hour support_icon.png" alt="Bplus" style="background: #e5eef0; padding: 18px;">
+              </div>
+              <div class="col-md-9">
+                <h4 class="cardHeader card-title">24 საათიანი დახმარება</h4>
+                <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-4 col-xl-4col-lg-4 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <div class="featureCard card border-0 w-100 animate__animated animate__fadeInRight">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="./images/Keeping business data_icon.png" alt="Bplus" style="background: #e5eef0; padding: 18px;">
+              </div>
+              <div class="col-md-9">
+                <h4 class="cardHeader card-title">ბიზნეს ინფორმაციის შენახვა</h4>
+                <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="moreBtn" style="text-align: center; margin-top: 35px;">
+          <a href="#" class="moreAboutUs text-center">მეტი ჩვენს შესახებ</a>
+        </div>
+
+        <div class="traingleShapes"></div>
+    </div>
+</section>
+
+
+
+
+
+<!-- ფასების სექცია -->
+<section class="priceSection">
+
+  <div class="container" style="margin-bottom: 100px;">
+
+    <div class="priceTitle">
+      <h5 class="fw-bold" style="color: #23282f;">საუკეთესო ფასი</h5>
+      <h6 style="color: #23282f;">ჩვენი მთავარი უპირატესობაა</h6>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12 text-center">
+        <div class="card animate__animated animate__fadeInLeft" style="width: 16rem;">
+          <div class="card-body">
+            <h5 class="card-title">პერსონალური</h5>
+            <h6 class="card-subtitle mb-2 text-muted"><span style="color: #f7941d;">100$</span>-დან თვეში</h6>
+            <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ</p>
+            <a href="#" class="nav-link startNow text-center">დაიწყე ახლავე</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12 text-center">
+        <div class="card animate__animated animate__fadeInLeft" style="width: 16rem; box-shadow: #55595f2f 3px 3px 45px;">
+          <div class="card-body" style="overflow: hidden;">
+            <p class="recommended">რეკომენდირებული</p>
+            <h5 class="card-title">ბიზნეს</h5>
+            <h6 class="card-subtitle mb-2 text-muted"><span style="color: #f7941d;">200$</span>-დან თვეში</h6>
+            <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ</p>
+            <a href="#" class="nav-link startNow text-center">დაიწყე ახლავე</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12 text-center">
+        <div class="card animate__animated animate__fadeInRight" style="width: 16rem;">
+          <div class="card-body">
+            <h5 class="card-title">ოქროს</h5>
+            <h6 class="card-subtitle mb-2 text-muted"><span style="color: #f7941d;">250$</span>-დან თვეში</h6>
+            <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ</p>
+            <a href="#" class="nav-link startNow text-center">დაიწყე ახლავე</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12 text-center">
+        <div class="card animate__animated animate__fadeInRight" style="width: 16rem;">
+          <div class="card-body">
+            <h5 class="card-title">საბოლოო</h5>
+            <h6 class="card-subtitle mb-2 text-muted"><span style="color: #f7941d;">300$</span>-დან თვეში</h6>
+            <p class="card-text">რეალობადაქციე შენი სტარტაპ ოცნება რეალობადაქციე შენი სტარტაპ</p>
+            <a href="#" class="nav-link startNow text-center">დაიწყე ახლავე</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- გუნდის სექცია -->
+
+<section class="teamSection">
+  <div class="container">
+
+
+    <div class="row">
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12">
+        <div class="card animate__animated animate__fadeInLeft" style="width: 16rem;">
+          <img src="./images/team1.png" class="card-img-top" alt="Bplus">
+          <div class="card-body">
+            <h5 class="card-title fs-4 fw-bold">გიორგი გიორგაძე</h5>
+            <p class="card-text">მონაცემთა სპეციალისტი</p>
+            <a href="#" class="link-secondary"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12">
+        <div class="card animate__animated animate__fadeInLeft" style="width: 16rem;">
+          <img src="./images/team3.png" class="card-img-top" alt="Bplus">
+          <div class="card-body">
+            <h5 class="card-title fs-4 fw-bold">დავით დავითიძე</h5>
+            <p class="card-text">მარკეტერი</p>
+            <a href="#" class="link-secondary"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12">
+        <div class="card animate__animated animate__fadeInRight" style="width: 16rem;">
+          <img src="./images/team2.png" class="card-img-top" alt="Bplus">
+          <div class="card-body">
+            <h5 class="card-title fs-4 fw-bold">ანა ანანიაშვილი</h5>
+            <p class="card-text">გენერალური მენეჯერი</p>
+            <a href="#" class="link-secondary"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-xxs-12">
+        <div class="card animate__animated animate__fadeInRight" style="width: 16rem;">
+          <img src="./images/team4.png" class="card-img-top" alt="Bplus">
+          <div class="card-body">
+            <h5 class="card-title fs-4 fw-bold">ელენე ელენიძე</h5>
+            <p class="card-text">პროგრამისტი</p>
+            <a href="#" class="link-secondary"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="link-secondary"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+
+<footer>
+  <div class="container">
+    <div class="card text-center border-0">
+      <div class="card-body">
+        <h5 class="card-title fw-bold"><span style="color: #f5a24c;">უფასო სერვისი</span> ერთი თვის განმავლობაში</h5>
+        <p class="card-text text-Secondary mb-4">გაეცანით ჩვენს სპეციალურ შემოთავაზებას ჩვენი მომსახურეობის შესახებ უფასოდ</p>
+        <a href="#" class="fb btn btn-primary rounded-pill text-white px-5 py-2 border-0">გაგრძელება</a>
+        <a href="#" class="sb btn btn-warning rounded-pill text-white px-5 py-2 border-0">კონტაქტი</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="subcard">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+              <div class="subcardImg"></div>
+          </div>
+
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+            <h5 class="subMenuTitle fw-bold mb-4">მენიუ</h5>
+            <a href="#"><p class="subMenuText">მთავარი</p></a>
+            <a href="#"><p class="subMenuText">ჩვენს შესახებ</p></a>
+            <a href="#"><p class="subMenuText">უპირატესობები</p></a>
+            <a href="#"><p class="subMenuText">პორტფოლიო</p></a>
+          </div>
+
+          <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+            <h5 class="subMenuTitle fw-bold mb-4"></h5>
+            <a href="#"><p class="subMenuText">სერვისები</p></a>
+            <a href="#"><p class="subMenuText">ბლოგი</p></a>
+            <a href="#"><p class="subMenuText">ბლოგის გვერდები</p></a>
+            <a href="#"><p class="subMenuText">
+              <a href="#" class="link-secondary"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="link-secondary"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="link-secondary"><i class="bi bi-linkedin"></i></a>
+            </p></a>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+            <h5 class="subMenuTitle fw-bold mb-4">კონტაქტი</h5>
+            <p class="subMenuText"><span class="text-dark">მისამართი : </span>რუსთაველის 5</p>
+            <p class="subMenuText"><span class="text-dark">ელ-ფოსტა : </span>Bplus@gmail.com</p>
+            <p class="subMenuText"><span class="text-dark">ტელ : </span>551-22-22-22</p>
+          </div>
+
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+            <h5 class="subMenuTitle fw-bold mb-4">წერილი კომპანიის დირექტორს</h5>
+            <p class="subMenuText">მიუთითეთ თქვენი ელ-ფოსტა</p>
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="ავტორის ელ-ფოსტა" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="GoBtn btn btn-outline-primary border-0" type="button" id="button-addon2">GO</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="subsubcard text-center text-Secondary">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+          <p class="mb-1 mt-1 text-Secondary mt-3 mb-5">&copy ყველა უფლება დაცულია ავტორი ნიკოლოზ ჩხარტიშვილი 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+  
+  
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- მთავარ მენიუში დაშორება ელემენტებს შორის -->
+<!-- მეორე კარუსელი -->

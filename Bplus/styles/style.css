@@ -1,0 +1,519 @@
+@font-face
+{
+    src: url(../fonts/alk-sanet-webfont.ttf);
+    font-family: alk;
+}
+
+*
+{
+    font-family: alk;
+}
+
+/* ზედა მენიუ */
+
+a
+{
+    text-decoration: none !important;
+}
+li
+{
+    list-style: none !important;
+}
+
+.supnav
+{
+    font-size: 14px;
+    background: #e5eef0;
+}
+
+.supnav .nav-item
+{
+    padding-top: 6.1px;
+    padding-bottom: 6.1px;
+}
+
+
+.supnav .lc img
+{
+    margin-left: 30px !important;
+}
+
+.supnav .nav-item span
+{
+    margin-right: 30px;
+    color: #98a5ab !important;
+}
+
+
+.supnav.navbar .nav-item:first-child
+{
+    border-right: 1px solid #ccc;
+}
+
+
+
+
+/* მთავარი მენიუ */
+
+.mainnav .nav-item
+{
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    margin-left: 12px !important;
+    text-align: center;
+}
+
+.mainnav .nav-link,.dropdown-item
+{
+    color: #93a1a7 !important;
+    font-size: 15px !important;
+}
+
+.mainnav .active
+{
+    color: #23282f !important;
+}
+
+.contact .nav-link,.moreServices,.moreAboutUs,.startNow
+{
+    background: #29c2e1;
+    color: #fff !important;
+    border-radius: 50px;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+    padding-left: 26px !important;
+    padding-right: 26px !important;
+}
+
+/* კარუსელი */
+
+.firstCarousel .carousel-item
+{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 750px;
+}
+
+.firstCarousel .carousel-item h1
+{
+    font-weight: 600;
+}
+
+.firstCarousel .carousel-indicators [data-bs-target]
+{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100% !important;
+}
+
+
+
+/* სტარტაპ სექცია */
+
+.startupCard
+{
+    margin-top: 78px !important;
+}
+
+.startupCard h1
+{
+    color: #23282f !important;
+    font-size: 35px !important;
+    margin-bottom: 4px !important;
+}
+
+.startupCard h4
+{
+    color: #23282f !important;
+    font-size: 20px !important;
+    margin-bottom: 29px !important;
+}
+
+.startupCard p
+{
+    font-size: 14px !important;
+    color: #55595f !important;
+    margin-bottom: 57px;
+}
+
+.moreServices
+{
+    float: left !important;
+    text-align: center !important;
+}
+
+
+
+
+/* მეორე კარუსელი */
+
+
+.secondCarousel
+{
+    background: #e5eef0;
+}
+
+.secondCarousel .carousel-indicators [data-bs-target]
+{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    background-color: #29c2e1 !important;
+}
+
+.secondCarousel .carousel-indicators
+{
+    left: unset !important;
+}
+
+.textContent
+{
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.textContent h5
+{
+    margin-bottom: 3px;
+}
+
+.textContent h6
+{
+    margin-bottom: 50px;
+}
+
+.textContent p
+{
+    margin-left: 100px;
+    margin-bottom: 45px;
+}
+
+.photoContent
+{
+    margin-top: 200px;
+    margin-bottom: 138px;
+}
+
+
+
+/* განსაკუთრებულობები */
+
+.featureTitle
+{
+    margin-top: 97px;
+}
+
+.featureTitle h5
+{
+    margin-bottom: 3px !important;
+    font-size: 20px !important;
+}
+
+.moreBtn
+{
+    margin-bottom: -15px !important;
+}
+
+.featureCard
+{
+    margin-top: 46px !important;
+}
+
+.traingleShapes
+{
+    height: 120px;
+    background: url(/images/multipshape.png) no-repeat right bottom;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+/* ფასების სექცია */
+
+.priceSection
+{
+    margin-top: 100px;
+}
+
+.priceSection h5
+{
+    margin-bottom: 3px !important;
+    font-size: 20px !important;
+}
+
+.priceSection h6
+{
+    margin-bottom: 35px !important;
+}
+
+
+.priceSection .card-title
+{
+    border-bottom: 1px solid #ccc;
+    padding: 37px 35px 14px 35px;
+}
+
+.priceSection .card-subtitle
+{
+    border-bottom: 1px solid #ccc;
+    padding: 26px 40px 26px 40px;
+}
+
+
+.priceSection .card-text
+{
+    margin-top: 38px !important;
+    margin-bottom: 93px !important;
+}
+
+
+.priceSection .nav-link
+{
+    margin-bottom: 22px !important;
+}
+
+
+.priceSection .card
+{
+    overflow: hidden;
+}
+
+.recommended
+{
+    position: absolute;
+    background-color: #f7941d;
+    color: #fff;
+    padding: 10px 60px 10px 60px;
+    transform:rotate(-45deg);
+    top: 37px;
+    left: -80px;
+}
+
+
+
+
+/* გუნდის სექცია */
+
+.teamSection
+{
+    background: #e5eef0;
+}
+
+.teamSection .card-text
+{
+    color: #f7941d;
+}
+
+.teamSection .card
+{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+.teamSection .card img
+{
+    margin-bottom: 7px;
+}
+
+.teamSection .card-title
+{
+    margin-bottom: -2px;
+}
+
+.teamSection .card-text
+{
+    font-size: 14px !important;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* footer */
+
+
+/* ზედა ფუტერი */
+ 
+footer
+{
+    background: url(../images/blue_background-footer-right.png) no-repeat right bottom;
+}
+
+
+
+footer .card
+{
+    margin-top: 80px !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+
+.fb
+{
+    background-color: #29c2e1 !important;
+    margin-bottom: 100px !important;
+}
+
+.sb
+{
+    background-color: #f69b37 !important;
+    margin-bottom: 100px !important;
+    
+}
+
+
+/* SubFooter */
+
+.subcard
+{
+    margin-top: 75px !important;
+}
+
+.subcard .container-fluid
+{
+    height: 320px;
+    background: url(../images/orange_background-footer-left.png) no-repeat left bottom; 
+}
+
+
+
+.subcardImg
+{
+    background: url(../images/logo.png) no-repeat;
+    height: 35px;
+
+}
+
+.subMenuTitle
+{
+    font-size: 18px;
+}
+
+.subMenuText
+{
+    font-size: 14px;
+    color: #aeb9bd;
+}
+
+.GoBtn
+{
+    background: #29c2e1 !important;
+    color: #fff !important;
+}
+
+
+/* SubSubFooter */
+
+.subsubcard
+{
+    font-size: 14px;
+}
+
+
+
+
+
+@media(max-width:266px)
+{
+    /* განსაკუთრებული სექცია */
+    .traingleShapes
+    {
+        display: none;
+        border: none;
+    }
+}
+
+
+@media(max-width:350px)
+{
+
+    /* პირველი კარუსელი */
+    /* მეორე კარუსელი */
+    .firstCarousel, .secondCarousel
+    {
+        display: none;
+    }
+}
+
+@media(max-width:575px)
+{
+    /* მეორე კარუსელი */
+    .photoContent
+    {
+        margin-top: 1px !important;
+    }
+}
+
+
+
+@media(max-width:767px)
+{
+    /* სტარტაპის სექცია */
+    .cardHeader
+    {
+        margin-top: 20px !important;
+    }
+
+    /* განსაკუთრებული სექცია */
+    .traingleShapes
+    {
+        margin-top: 40px;
+    }
+
+    /* ფასების სექცია */
+
+    .priceSection .card
+    {
+        margin: auto !important;
+        margin-top: 30px !important;
+    }
+}
+
+
+@media(max-width:991px)
+{
+    /* ზედა მენიუ */
+    .supnav.navbar .nav-item:first-child
+    {
+        border: none;
+    }
+
+    .supnav .lc img
+    {
+        margin-left: 0 !important;
+    }
+
+    .moreServices
+    {
+        margin-bottom: 80px;
+    }
+
+    /* ფასების სექცია */
+
+    .priceSection .card, .teamSection .card
+    {
+        margin: auto !important;
+        margin-top: 30px !important;
+    }
+
+    /* footer */
+
+    footer, .subcard .container-fluid
+    {
+        background: none;
+        text-align: center !important;
+    }
+
+    .subMenuTitle
+    {
+       margin-top: 30px !important;
+    }
+    .subsubcard
+    {
+        display: none;
+    }
+
+
+}
