@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Build Shop</title>
+</head>
+<body>
+
+    <header>
+        <!-------------------------------------------- supnav---------------------------->
+        <nav class="supnav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container">
+                  <a class="navbar-brand" href="#"><img src="./images/truck.png" alt="BuildShop"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active border-end px-4" aria-current="page" href="#">მიწოდების სერვისი</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active border-end px-4" aria-current="page" href="#">დაბრუნების პოლიტიკა</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active px-4" aria-current="page" href="#">გამოგვყევით</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img src="./images/facebook-f.png" alt="BuildShop"></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img src="./images/linkedin-in.png" alt="BuildShop"></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img src="./images/instagram.png" alt="BuildShop"></a>
+                      </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            აირჩიე ენა
+                          </a>
+                          <ul class="languageChoice dropdown-menu text-center border-0" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">ქართული</a></li>
+                              <li><a class="dropdown-item" href="#">русский </a></li>
+                              <li><a class="dropdown-item" href="#">English</a></li>
+                          </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </nav>
+
+        <!-------------------------------------------- uppernav ---------------------------->
+        <nav class="uppernav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container">
+                  <a class="navbar-brand fw-bold" href="index.html">BUILDSHOP <img src="./images/LogoEclipse.png" alt="BuildShop"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+                    <ul class="navbar-nav m-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active  me-3" aria-current="page" href="index.html">მთავარი</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active  me-3" aria-current="page" href="#">ჩვენს შესახებ</a>
+                      <li class="nav-item">
+                        <a class="nav-link active me-3" aria-current="page" href="#">სერვისები</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active  me-3" aria-current="page" href="#">ბლოგი</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active  me-3" aria-current="page" href="#">კონტაქტი</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary position-relative bg-transparent border-0">
+                                <img src="./images/heart.png" alt="BuildShop"> <span class="badge position-absolute top-0 start-100 translate-middle badge rounded-circle bg-secondary">9<span class="visually-hidden">unread messages</span></span>
+                              </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary position-relative bg-transparent border-0">
+                                <img src="./images/shopping-cart.png" alt="BuildShop"> <span class="badge position-absolute top-0 start-100 translate-middle badge rounded-circle bg-secondary">17<span class="visually-hidden">unread messages</span></span>
+                              </button>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </nav>
+
+        <!-------------------------------------------- downnav ---------------------------->
+        <nav class="downnav mt-2 mb-4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <div class="dropdown">
+                            <a class="allCategories btn btn-secondary dropdown-toggle p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-list-ul fw-bold me-3"></i> ყველა კატეგორია
+                            </a>
+                            <ul class="dropdown-menu border-0 text-center bg-light" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">სამშენებლო მასალა</a></li>
+                              <li><a class="dropdown-item" href="#">ქვის მასალა</a></li>
+                              <li><a class="dropdown-item" href="#">ხის მასალა</a></li>
+                              <li><a class="dropdown-item" href="#">რკინის მასალა</a></li>
+                              <li><a class="dropdown-item" href="#">საქარხნო დანადგარები</a></li>
+                            </ul>
+
+                          </div>
+                    </div>
+
+                    <div class="inputs col-lg-6">
+                        <form class="d-flex">
+                            <input class="form-control" type="search" placeholder="მოიძიეთ პროდუქტი..." aria-label="Search">
+                            <input class="form-control" type="search" placeholder="კატეგორია"aria-label="Search">
+                            <button class="btn btn-outline-success px-4 py-3" type="submit"><img src="./images/searchIcon.png" alt="BuildShop"></button>
+                          </form>
+                    </div>
+
+                    <div class="col-lg-3 position-relative">
+                      <img src="./images/user-alt.png" alt="BuildShop">
+                      <div class="loginAndSignUp ">
+                        <p class="mb-0">პირადი კაბინეტი</p>
+                        <a href="#" class="text-decoration-none text-dark">ავტორიზაცია / </a>
+                        <a href="#" class="text-decoration-none text-dark">რეგისტრაცია</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+        <!-------------------------------------------- salesSection---------------------------->
+    <section class="salesSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card border-0 shadow">
+              <div class="card-body">
+                <p class="card-text fs-5">50% ფასდაკლება ხის საჭრელ დაზგებზე</p>
+                <a href="#" class="card-link text-decoration-none text-white rounded p-3">დაწვრილებით <i class="bi bi-arrow-right"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-------------------------------------------- saleCarousel---------------------------->
+      <section class="saleCarousel bg-light Larger shadow">
+        <div class="container-fluid">
+          <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="saleContent mt-3 ">
+                          <div class="card p-1 border-0 outlne-0 Larger shadow">
+                            <a href="#"><img src="./images/salesCardGreen.png" class="card-img-top text-center p-4" alt="BuildShop"></a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center">ბურღულეულის შესანახი</h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="" aria-hidden="true"><i class="bi bi-arrow-left-short fs-1 bg-white border-0 text-dark Larger shadow fw-bold"></i></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="" aria-hidden="true"><i class="bi bi-arrow-right-short fs-1 bg-white border-0 text-dark Larger shadow fw-bold"></i></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-------------------------------------------- popularProducts---------------------------->
+      <section class="popularProducts">
+        <div class="container">
+          <div class="row">
+            <h4 class="popularTitle">პოპულარული პროდუქცია</h4>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+
+              <div class="card Larger shadow rounded border-0 position-relative mt-5">
+                <img src="./images/cardYellowInstrumentPhoto.png" class="card-img-top" alt="BuildShop">
+                <div class="card-body">
+                  <div class="container-fluid">
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h5 class="card-title">Uxcell 4 Inch Wool Felt Polishing</h5>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12">
+                        <p class="oldPrice"><del>1700₾</del></p>
+                        <h4 class="actualPrice text-success">1500₾</h4>
+                      </div>
+                      <div class="col-lg-5 col-md-12 col-sm-12">
+                        <a href="#" class="cartBtn px-4 py-2"><img src="./images/cart-plus.png" alt="BUILDSHOP"></a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+
+        <!--------------------------------------------subscribeNews---------------------------->
+        <section class="subscribeNews">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2 class="subscribeNewsTitle text-center">სიახლეების გამოწერა</h2>
+              </div>
+            </div>
+            <div class="input row">
+              <div class="col-lg-12 col-md-12 col-sm-12 rounded">
+                  <div class="emailInputToSubscribe rounded text-left">
+                      <p class="emailInputToSubscribeTitle px-5 py-2">მიუთითეთ თქვენი ელ ფოსტა და ადევნეთ თვალი ჩვენს კომპანიაში მიმდინარე სიახლეებს</p>
+
+                      <div class="input-group px-5 py-3">
+                        <input type="email" class="form-control border-0" placeholder="your@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary py-3" type="button" id="button-addon2">გამოწერა</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--------------------------------------------blog---------------------------->
+        <section class="blog">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="blogCard mt-5 mb-5 rounded text-white rounded" style="background: url(./images/cardHelmetBgPhoto.png);">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="blogAddDate mt-5 mb-5">
+                          <h2 class="text-center border px-3 py-3">25 მარ</h2>
+                        </div>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="blogTitleAndText mt-5 mb-5">
+                          <h5>როგორი ჭაღი მოუხდება შენს სახლს ?</h5>
+                          <p>არ გამოტოვო განათების კვირეული მოდი საბურთალოზე 22 თებერვლიდან და შეარჩიე მრავალი დასახელების პროდუქცია განათების სექციიდან, საუკეთესო ფასად</p>
+                          <a href="#" class="text-white text-decoration-none border p-2">სრულად ნახვა <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="blogCard mt-5 mb-5 rounded text-white rounded" style="background: url(./images/cardArchitectBgPhoto.png);">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="blogAddDate mt-5 mb-5">
+                          <h2 class="text-center border px-3 py-3">25 მარ</h2>
+                        </div>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="blogTitleAndText mt-5 mb-5">
+                          <h5>როგორი ჭაღი მოუხდება შენს სახლს ?</h5>
+                          <p>არ გამოტოვო განათების კვირეული მოდი საბურთალოზე 22 თებერვლიდან და შეარჩიე მრავალი დასახელების პროდუქცია განათების სექციიდან, საუკეთესო ფასად</p>
+                          <a href="#" class="text-white text-decoration-none border p-2">სრულად ნახვა <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="blogCard mt-5 mb-5 rounded text-white rounded" style="background: url(./images/cardArchitectBgPhoto.png);">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="blogAddDate mt-5 mb-5">
+                          <h2 class="text-center border px-3 py-3">25 მარ</h2>
+                        </div>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="blogTitleAndText mt-5 mb-5">
+                          <h5>როგორი ჭაღი მოუხდება შენს სახლს ?</h5>
+                          <p>არ გამოტოვო განათების კვირეული მოდი საბურთალოზე 22 თებერვლიდან და შეარჩიე მრავალი დასახელების პროდუქცია განათების სექციიდან, საუკეთესო ფასად</p>
+                          <a href="#" class="text-white text-decoration-none border p-2">სრულად ნახვა <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="blogCard mt-5 mb-5 rounded text-white rounded" style="background: url(./images/cardHelmetBgPhoto.png);">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="blogAddDate mt-5 mb-5">
+                          <h2 class="text-center border px-3 py-3">25 მარ</h2>
+                        </div>
+                      </div>
+                      <div class="col-lg-9">
+                        <div class="blogTitleAndText mt-5 mb-5">
+                          <h5>როგორი ჭაღი მოუხდება შენს სახლს ?</h5>
+                          <p>არ გამოტოვო განათების კვირეული მოდი საბურთალოზე 22 თებერვლიდან და შეარჩიე მრავალი დასახელების პროდუქცია განათების სექციიდან, საუკეთესო ფასად</p>
+                          <a href="#" class="text-white text-decoration-none border p-2">სრულად ნახვა <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!--------------------------------------------brands-------------------------->
+        <section class="brands">
+            <div class="container-fluid">
+              <div class="row">
+                  <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="container">
+                          <div class="row">
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/pipeCenterBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/buildComBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/bcgBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/fergusonBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="carousel-item">
+                        <div class="container">
+                          <div class="row">
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/silvianBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/bcgBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/buildComBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <div class="brandsContent mt-3 mb-3 Larger shadow p-5 bg-white text-center">
+                                <div class="card border-0">
+                                  <a href="#"><img src="./images/fergusonBrand.png" class="card-img-top text-center" alt="BuildShop"></a>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                      <span class="" aria-hidden="true"><i class="bi bi-arrow-left-short fs-1 bg-white border-0 text-dark Larger shadow fw-bold"></i></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                      <span class="" aria-hidden="true"><i class="bi bi-arrow-right-short fs-1 bg-white border-0 text-dark Larger shadow fw-bold"></i></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+            </div>
+        </section>
+
+
+        <!--------------------------------------------Footer-------------------------->
+        <footer>
+            <div class="container">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <h1>გვერდები</h1>
+                  <a href="#">მთავარი</a>
+                  <a href="#">მიწოდება</a>
+                  <a href="#">ჩვენს შესახებ</a>
+                  <a href="#">კონტაქტი</a>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <h1>კომპანია</h1>
+                  <a href="#">ჩვენს შესახებ</a>
+                  <a href="#">მომსახურეობა</a>
+                  <a href="#">ბლოგი</a>
+                  <a href="#">სიახლეები</a>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <h1>032 211 24 23</h1>
+                  <p>თქვენ შეგიძლიათ შეუკვეთოთ საუკეთესო პროდუქტი ტელეფონით,ასევე ნებისმიერი კითხვის შემთხვევაში დაგვიკავშირდით</p>
+                  <div class="socmedia mt-4">
+                    <a href="" class="d-inline text-white bg-dark fs-6 text-center"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="d-inline text-white bg-dark fs-6 text-center"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="d-inline text-white bg-dark fs-6 text-center"><i class="bi bi-youtube"></i></a>
+                  </div>
+                  <p class="mt-4">გაქვთ კითხვები? მოგვწერეთ თქვენი ინფორმაცია კონტაქტის <span style="color: crimson;">ფორმიდან</span></p>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <p>ყველა უფლება დაცულია &copy 2021 By <span style="color: crimson;">nikachkharti</span></p>
+                </div>
+
+              </div>
+            </div>
+        </footer>
+
+
+        
+
+
+
+
+    
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+</body>
+</html>
