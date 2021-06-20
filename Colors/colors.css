@@ -1,0 +1,29 @@
+#colors
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#colors div
+{
+    width: 20%;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+.btnDiv
+{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#startBtn
+{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 40px;
+}
